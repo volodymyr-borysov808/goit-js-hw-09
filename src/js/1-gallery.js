@@ -94,16 +94,6 @@ const itemsListEl = document.querySelector('.gallery');
 
 itemsListEl.innerHTML = galleryItemTemplate;
 
-document.addEventListener('DOMContentLoaded', () => {
-  const galleryLinks = document.querySelectorAll('.gallery-link');
-
-  galleryLinks.forEach(link => {
-    link.addEventListener('click', (event) => {
-      event.preventDefault();
-    });
-  });
-});
-
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
